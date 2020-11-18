@@ -103,4 +103,4 @@ modules.xml
 
 ##node_modules
 node_modules/
-package-lock.json
+css/style.css.map

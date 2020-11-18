@@ -4,12 +4,15 @@
   "description": "Coffe Better Company",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "sass sass/main.scss css/style.css --watch",  
+    "live":"yarn live-server",
+    "cs": "sass sass/main.scss css/style.css --watch"
   },
   "author": "Nicolas Oliveira",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "live-server": "^1.2.1",
+    "sass": "^1.29.0"
   },
   "dependencies": {
     "jquery": "^3.5.1"
