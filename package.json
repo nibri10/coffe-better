@@ -1,0 +1,17 @@
+{
+  "name": "coffe-better",
+  "version": "0.0.1",
+  "description": "Coffe Better Company",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Nicolas Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

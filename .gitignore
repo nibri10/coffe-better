@@ -100,3 +100,7 @@ modules.xml
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm+all,vscode
+
+##node_modules
+node_modules/
+package-lock.json
